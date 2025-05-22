@@ -1,0 +1,4 @@
+User-agent: *
+Disallow:
+
+Sitemap: https://tuananh1905.github.io/truyenchu/sitemap.xml
