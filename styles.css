@@ -11,6 +11,115 @@ body {
   margin-right: auto;
 }
 
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  background-color: #2d6a4f;
+  color: white;
+  padding: 20px 0;
+  text-align: center;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+header h1 {
+  font-size: 2.2rem;
+}
+
+main {
+  max-width: 800px;
+  margin: 40px auto;
+  padding: 0 20px;
+}
+
+p.description {
+  font-size: 1.1rem;
+  color: #444;
+  margin-bottom: 30px;
+}
+
+ul.chapter-list {
+  list-style: none;
+  padding-left: 0;
+  margin-bottom: 30px;
+}
+
+ul.chapter-list li {
+  background-color: #fff;
+  margin-bottom: 10px;
+  padding: 15px 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
+  transition: background-color 0.2s ease;
+}
+
+ul.chapter-list li:hover {
+  background-color: #f0f0f0;
+}
+
+ul.chapter-list a {
+  text-decoration: none;
+  color: #2d6a4f;
+  font-weight: bold;
+}
+
+.back-link {
+  display: inline-block;
+  margin-top: 20px;
+  color: #5a189a;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.back-link:hover {
+  text-decoration: underline;
+}
+
+footer {
+  text-align: center;
+  padding: 30px 20px;
+  color: #999;
+  font-size: 0.9rem;
+}
+
+.truyen-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 20px;
+}
+
+.truyen-item {
+  background: white;
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+  transition: transform 0.3s ease;
+}
+
+.truyen-item:hover {
+  transform: translateY(-5px);
+}
+
+.truyen-item h2 {
+  font-size: 1.2rem;
+  margin-bottom: 10px;
+  color: #2d6a4f;
+}
+
+.truyen-item p {
+  font-size: 0.95rem;
+  color: #666;
+}
+
+.truyen-item a {
+  text-decoration: none;
+  color: inherit;
+  display: block;
+}
+
 main {
   padding-bottom: 3rem;
 }
@@ -26,13 +135,14 @@ h1 {
   bottom: 0;
   left: 0;
   width: 100%;
-  background-color: #2d6a4f; /* hoặc màu bạn muốn */
+  background-color: #2d6a4f;
+  /* hoặc màu bạn muốn */
   color: white;
   text-align: center;
   padding: 15px 0;
   font-size: 1.1rem;
   z-index: 999;
-  box-shadow: 0 -2px 5px rgba(0,0,0,0.1);
+  box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.1);
 }
 
 .nav-links a {
