@@ -61,6 +61,8 @@ ul.chapter-list li:hover {
 }
 
 ul.chapter-list a {
+  display: block;
+  padding: 15px 20px;
   text-decoration: none;
   color: #2d6a4f;
   font-weight: bold;
