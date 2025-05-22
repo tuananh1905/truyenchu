@@ -73,3 +73,5 @@ Tuy hắn so với những đứa trẻ cùng trang lứa thì chín chắn hơn
 Hàn Lập từ trước không có nghĩ đến, chỉ là sau khi rời khỏi thôn làng hắn mới nhận ra, tiền đã không còn ý nghĩa với hắn như lúc xưa nữa rồi. Mà hắn mặc nhiên không biết rằng, con đường vận mệnh của hắn không giống như những người bình thường. Con đường tu tiên của hắn bắt đầu từ đây.
 
 * hồng tương quả: Hình như là quả trứng cá
+
+[Chương 2](chuong-2.md)
