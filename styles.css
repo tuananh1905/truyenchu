@@ -22,11 +22,26 @@ h1 {
 }
 
 .nav-links {
-  margin-top: 2rem;
-  font-size: 1rem;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  background-color: #2d6a4f; /* hoặc màu bạn muốn */
+  color: white;
+  text-align: center;
+  padding: 15px 0;
+  font-size: 1.1rem;
+  z-index: 999;
+  box-shadow: 0 -2px 5px rgba(0,0,0,0.1);
 }
 
 .nav-links a {
+  color: white;
   text-decoration: none;
-  color: #336699;
+  margin: 0 10px;
+  font-weight: bold;
+}
+
+.nav-links a:hover {
+  text-decoration: underline;
 }
